@@ -13,7 +13,6 @@ output:
       highlightLines: true
       countIncrementalSlides: false
 ---
-class: logo
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
