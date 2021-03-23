@@ -6,6 +6,7 @@ institute: "NOAA Fisheries Office of Science and Technology"
 date: "2021/03/18 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
+    css: xaringan-themer.css
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -16,6 +17,16 @@ output:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 ```
+
+```{r theming, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_light(base_color="#00467F",
+                 white_color="#FFFFFF",
+  header_font_google = google_font("Arimo"),
+  text_font_google   = google_font("Carlito", "300", "300i"),
+  code_font_google   = google_font("Source Code Pro"))
+```
+
 # Software development lifecycle (SDLC)
 
 The SDLC provides an international standard that software companies can use to build and improve their computer programs. It offers a defined structure for development teams to follow in the design, creation and maintenance of high-quality software. The aim of the IT software development process is to build effective products within a defined budget and timeline.
