@@ -43,23 +43,23 @@
   --header-h3-font-size: 1.75rem;
 
   /* Colors */
-  --text-color: #003158;
+  --text-color: #00467F;
   --header-color: #00467F;
   --background-color: #FFFFFF;
-  --link-color: #00467F;
+  --link-color: #1ECAD3;
   --text-bold-color: #00467F;
   --code-highlight-color: rgba(255,255,0,0.5);
   --inverse-text-color: #FFFFFF;
   --inverse-background-color: #00467F;
   --inverse-header-color: #FFFFFF;
-  --inverse-link-color: #00467F;
+  --inverse-link-color: #1ECAD3;
   --title-slide-background-color: #00467F;
   --title-slide-text-color: #FFFFFF;
   --header-background-color: #00467F;
   --header-background-text-color: #FFFFFF;
   --base: #00467F;
   --white: #FFFFFF;
-  --black: #003158;
+  --black: #00467F;
 }
 
 html {
@@ -80,7 +80,7 @@ h1, h2, h3 {
   background-color: var(--background-color);
   font-size: 1rem;
   background-image: url(slideswoosh.PNG);
-  background-size: 910px 690px;
+  background-size: 930px 690px;
   padding: 16px 64px 16px 64px;
   width: 100%;
   height: 100%;
@@ -116,9 +116,9 @@ a, a > code {
 }
 .footnote {
   position: absolute;
-  bottom: 60px;
+  bottom: 10px;
   padding-right: 4em;
-  font-size: 0.9em;
+  font-size: 0.6em;
 }
 .remark-code-line-highlighted {
   background-color: var(--code-highlight-color);
@@ -139,8 +139,8 @@ a, a > code {
 }
 .title-slide {
   background-color: var(--title-slide-background-color);
-  background-image: url("");
-  background-size: cover;
+  background-image: url("slideswooshver.png");
+  background-size: 930px 690px;
 }
 .title-slide .remark-slide-number {
   display: none;
