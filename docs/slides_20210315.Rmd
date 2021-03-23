@@ -6,27 +6,17 @@ institute: "NOAA Fisheries Office of Science and Technology"
 date: "2021/03/18 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
-    css: xaringan-themer.css
+    css: noaafish.css
     lib_dir: libs
-    includes:
-      after_body: insert-logo.html
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
 ---
+class: logo
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
-```
-
-```{r theming, include=FALSE, warning=FALSE}
-library(xaringanthemer)
-style_mono_light(base_color="#00467F",
-                 white_color="#FFFFFF",
-  header_font_google = google_font("Arimo"),
-  text_font_google   = google_font("Carlito", "300", "300i"),
-  code_font_google   = google_font("Source Code Pro"))
 ```
 
 # Software development lifecycle (SDLC)
