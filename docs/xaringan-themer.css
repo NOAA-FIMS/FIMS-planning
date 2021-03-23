@@ -79,6 +79,8 @@ h1, h2, h3 {
 .remark-slide-content {
   background-color: var(--background-color);
   font-size: 1rem;
+  background-image: url(slideswoosh.PNG);
+  background-size: contain;
   padding: 16px 64px 16px 64px;
   width: 100%;
   height: 100%;

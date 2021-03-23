@@ -7,14 +7,30 @@ date: "2021/03/18 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
-    includes:
-      after_body: insert-logo.html 
     lib_dir: libs
     nature:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      
 ---
+```{r xaringanthemer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+base_color="#00467F"
+style_mono_light(base_color=base_color,
+                 white_color="#FFFFFF",
+  header_font_google = google_font("Arimo"),
+  text_font_google   = google_font("Carlito", "300", "300i"),
+  code_font_google   = google_font("Source Code Pro"),
+  background_image = "slideswoosh.PNG",
+  background_size = "contain",
+  title_slide_background_image = NULL,
+  inverse_background_color = base_color,
+  title_slide_background_color = base_color
+  )
+
+```
+
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
