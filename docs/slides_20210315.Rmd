@@ -6,7 +6,9 @@ institute: "NOAA Fisheries Office of Science and Technology"
 date: "2021/03/18 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
-    css: noaafish.css
+    css: xaringan-themer.css
+    includes:
+      after_body: insert-logo.html 
     lib_dir: libs
     nature:
       highlightStyle: github

@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="author" content="Christine Stawitz" />
     <script src="libs/header-attrs/header-attrs.js"></script>
-    <link rel="stylesheet" href="noaafish.css" type="text/css" />
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -211,6 +211,35 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   }
   preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
 })(document);</script>
+<style>
+.logo {
+  background-image: url(slideswoosh.PNG);
+  background-color: "#FFFFFF";
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0em;
+  right: 1em;
+  width: 1200px;
+  height: 1400px;
+  z-index: 0;
+}
+</style>
+
+<script>
+document
+  .querySelectorAll(
+    '.remark-slide-content' +
+    ':not(.title-slide)' +
+    ':not(.inverse)' +
+    // add additional classes to exclude here, e.g.
+    // ':not(.inverse)' +
+    ':not(.hide-logo)'
+  )
+  .forEach(el => {
+    el.innerHTML += '<div class="logo"></div>';
+  });
+</script>
 
 <script>
 slideshow._releaseMath = function(el) {
