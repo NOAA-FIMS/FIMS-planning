@@ -23,8 +23,8 @@ style_mono_light(base_color=base_color,
   text_font_google   = google_font("Carlito", "300", "300i"),
   code_font_google   = google_font("Source Code Pro"),
   background_image = "slideswoosh.PNG",
-  background_size = "contain",
-  title_slide_background_image = NULL,
+  background_size = "910px 690px",
+  title_slide_background_image = "",
   inverse_background_color = base_color,
   title_slide_background_color = base_color
   )
