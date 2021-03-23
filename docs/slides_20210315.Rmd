@@ -8,6 +8,8 @@ output:
   xaringan::moon_reader:
     css: xaringan-themer.css
     lib_dir: libs
+    includes:
+      after_body: insert-logo.html
     nature:
       highlightStyle: github
       highlightLines: true
