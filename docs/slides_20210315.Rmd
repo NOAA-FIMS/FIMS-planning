@@ -26,9 +26,9 @@ style_mono_light(base_color=base_color,
   header_font_google = google_font("Arimo"),
   text_font_google   = google_font("Carlito", "300", "300i"),
   code_font_google   = google_font("Source Code Pro"),
-  background_image = "slideswoosh.PNG",
+  background_image = "static/slideswoosh.PNG",
   background_size = "930px 690px",
-  title_slide_background_image = "slideswooshver.png",
+  title_slide_background_image = "static/slideswooshver.png",
   title_slide_background_size = "930px 690px",
   inverse_background_color = "#00467F",
   black_color = base_color,
@@ -54,7 +54,7 @@ The SDLC provides an international standard that software companies can use to b
 [Source](https://www.indeed.com/career-advice/career-development/what-is-software-development)
 
 ---
-background-image: url(Three_software_development_patterns_mashed_together.svg)
+background-image: url(static/Three_software_development_patterns_mashed_together.svg)
 background-size: contain
 
 ---
@@ -79,7 +79,7 @@ background-size: contain
 [Source](https://thedigitalprojectmanager.com/requirements-gathering-guide/)
 
 ---
-background-image: url(tree-swing-project-management-large.jpg)
+background-image: url(static/tree-swing-project-management-large.jpg)
 background-size: contain
 
 ---
@@ -88,7 +88,7 @@ background-size: contain
 - *non functional requirements* how the system should do it (e.g. usability, performance)
 
 ---
-background-image: url(RequirementsTemplate.PNG)
+background-image: url(static/RequirementsTemplate.PNG)
 background-size: contain
 # Requirements template
 [Spreadsheet](https://docs.google.com/spreadsheets/d/1KSuMwdK7C_kuFABmMhLyc9l7BaQjCznxU9C8R9cq7sA/edit#gid=0)
@@ -108,7 +108,7 @@ background-size: contain
 - Requirements that are identified but not in phase 1 move to the next phase
 
 ---
-background-image: url(Requirements.png)
+background-image: url(static/Requirements.png)
 background-size: contain
 # timeline
 
