@@ -10,6 +10,14 @@
 #include <vector>
 #include <iostream>
 
+/**
+ * In this example, we utilize the concept of inheritence and 
+ * polymorphism (https://www.geeksforgeeks.org/polymorphism-in-c/). All
+ * classes inherit from model_base. Name1 and Name2 inherit from NameBase.
+ * Classes Name1 and Name2 must implement they're own version of 
+ * "virtual T evaluate(const T& t)", which will be unique. 
+ */
+
 
 /*
  * name namespace
