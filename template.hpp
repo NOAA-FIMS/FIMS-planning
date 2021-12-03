@@ -125,4 +125,27 @@ public:
 
 } //end namespace
 
+/**
+ *Example usage:
+ *
+ * void main(int argc, char** argv){
+ *    NameBase<double>* name = NULL; //pointer to a NameBase object
+ *    Name1<double> n1; //inherits from NameBase
+ *    Name2<double> n2; //inherits from NameBase
+ *
+ *    name = &n1; //name now points to n1
+ *    name->evalute(2.0); //unique logic for n1
+ *
+ *    name = &n2; //name now points to n2
+ *    name->evalute(2.0); //unique logic for n2
+ * }
+ *
+ * Output:
+ * evaluate in Name1 received 2 as a method parameter, returning 3
+ * evaluate in Name2 received 2 as a method parameter, returning 4
+ *
+ */
+
+
+
 #endif /*template_hpp */
