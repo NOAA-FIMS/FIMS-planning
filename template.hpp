@@ -71,7 +71,7 @@ public:
     */
    virtual T evaluate(const T& t) {
      std::cout<<"evaluate in Name1 received "<<t<<"as a method parameter, returning "<<(t+1)<<std::endl;
-     return t+1; //unique logic to Name1 class
+     return t+1; //unique logic for Name1 class
    }
 
 };
@@ -111,7 +111,7 @@ public:
     */
    virtual T evaluate(const T& t) {
      std::cout<<"evaluate in Name2 received "<<t<<"as a method parameter, returning "<<(t*t)<<std::endl;
-     return t*t; //unique logic to Name2 class
+     return t*t; //unique logic for Name2 class
    }
 
 };
