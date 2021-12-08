@@ -33,7 +33,7 @@ class NameBase: public model_base<T>{
 protected:
 
 public:
-  virtual T evaluate(const T& t)=0; //"= 0;" means this must be implemented in child
+  virtual T Evaluate(const T& t)=0; //"= 0;" means this must be implemented in child
 };
   
 /* 
@@ -69,7 +69,7 @@ public:
     * @param t
     * @return t+1
     */
-   virtual T evaluate(const T& t) {
+   virtual T Evaluate(const T& t) {
      std::cout<<"evaluate in Name1 received "<<t<<"as a method parameter, returning "<<(t+1)<<std::endl;
      return t+1; //unique logic for Name1 class
    }
@@ -109,7 +109,7 @@ public:
     * @param t
     * @return t^2
     */
-   virtual T evaluate(const T& t) {
+   virtual T Evaluate(const T& t) {
      std::cout<<"evaluate in Name2 received "<<t<<"as a method parameter, returning "<<(t*t)<<std::endl;
      return t*t; //unique logic for Name2 class
    }
@@ -134,10 +134,10 @@ public:
  *    Name2<double> n2; //inherits from NameBase
  *
  *    name = &n1; //name now points to n1
- *    name->evalute(2.0); //unique logic for n1
+ *    name->Evalute(2.0); //unique logic for n1
  *
  *    name = &n2; //name now points to n2
- *    name->evalute(2.0); //unique logic for n2
+ *    name->Evalute(2.0); //unique logic for n2
  * }
  *
  * Output:
